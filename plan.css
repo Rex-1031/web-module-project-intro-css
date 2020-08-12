@@ -1,0 +1,87 @@
+
+ /* *{
+    border: solid red 1px;
+}*/
+
+body{
+  margin: 0 auto;
+  font-family: Roboto Mono;
+  width: 85%;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:center ;
+    padding: 2%;
+    margin: 0 auto;
+}
+
+a:hover{
+    opacity: 0.5 ;
+}
+.plan{
+    padding: 8px;
+    background-color: #FF764E;
+    color:white;
+    border-radius: 15px;
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+.about{
+    padding: 8px;
+    background-color:#5ED3EB;
+    color:white;
+    border-radius: 15px;
+    font-size: 2rem;
+   
+}
+
+.get{
+    padding: 8px;
+    background-color:#FFCD69;
+    color:white;
+    border-radius: 15px;
+    font-size: 2rem;
+}
+.backMain{
+    text-decoration: none;
+    color:black;
+}
+
+header img{
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    height: 300px;
+    object-fit: cover;
+    padding: 20px;
+}
+
+h1{
+    font-size: 4rem;
+    font-family: Chelsea Market;
+      text-align: center; 
+}
+
+
+.things{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:#DDB9A3;
+}
+
+.things ol{
+    text-align: left;
+}
+
+.parkAdd{
+    text-align: center;
+}
+
+.footer{
+    background-color:#F9E7DC ;
+}
